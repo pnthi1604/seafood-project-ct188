@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../resources/img/favicon_shrimp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>Đăng Nhập</title>
+</head>
+
+<style>
+</style>
+
+<body>
+    <header>
+        <div class="notification"></div>
+        <div class="container">
+            <a href="trangchu.html" class="logo">
+                <img src="../resources/img/logo.png" alt="logo page">
+            </a>
+
+            <form class="search">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button type="submit"><i class="icon search fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div class="buy-now">
+                <i class="icon phone fa-solid fa-phone"></i>
+                <div class="hot-line">
+                    <p class="hot-line-text">Gọi mua hàng</p>
+                    <p class="phone-number">0999 999 999</p>
+                </div>
+            </div>
+
+            <a href="donhang.html" class="shopping-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+
+        <nav>
+            <div class="nav-bar">
+                <div class="category">
+                    <i class="icon list fa-solid fa-list"></i>
+                    <span class="text-content">
+                        Menu
+                    </span>
+                    <ul class="list-product">
+                        <li class="product"><a href="../html/tom.html" class="link-product">Tôm Biển</a></li>
+                        <li class="product"><a href="../html/cua.html" class="link-product">Cua - Ghẹ Biển</a></li>
+                        <li class="product"><a href="../html/ca.html" class="link-product">Cá Biển</a></li>
+                        <li class="product"><a href="../html/oc.html" class="link-product">Ốc Biển</a></li>
+                        <li class="product"><a href="../html/monan.html" class="link-product">Món Ăn</a></li>
+                    </ul>
+                </div>
+                <ul class="list-item">
+                    <li class="item"><a href="trangchu.html">Trang chủ</a></li>
+                    <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="item"><a href="sanpham.html">Sản phẩm</a></li>
+                    <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                    <li class="item"><a href="dangnhap.html">Đăng nhập</a></li>
+                    <li class="item"><a href="dangky.html">Đăng ký</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-bar-mobile">
+                <div class="category">
+                    <i class="icon list fa-solid fa-list"></i>
+                    <ul class="list-product">
+                        <li class="product"><a href="../html/tom.html" class="link-product">Tôm Biển</a></li>
+                        <li class="product"><a href="../html/cua.html" class="link-product">Cua - Ghẹ Biển</a></li>
+                        <li class="product"><a href="../html/ca.html" class="link-product">Cá Biển</a></li>
+                        <li class="product"><a href="../html/oc.html" class="link-product">Ốc Biển</a></li>
+                        <li class="product"><a href="../html/monan.html" class="link-product">Món Ăn</a></li>
+                        <li class="sub-nav-mobile">
+                            <ul class="list-item">
+                                <li class="item"><a href="trangchu.html">Trang chủ</a></li>
+                                <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li class="item"><a href="sanpham.html">Sản phẩm</a></li>
+                                <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                                <li class="item"><a href="dangnhap.html">Đăng nhập</a></li>
+                                <li class="item"><a href="dangky.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="breakdown">
+            <a href="trangchu.html">Home</a>
+            <span> » Đăng nhập</span>
+        </div>
+        </nav>
+        <div class="au-form">
+            <form name="form" action="" method="post" enctype="multipart/form-data" class="need-validator">
+                <div class="au-form-header">
+                    <h1>Đăng Nhập</h1>
+                </div>
+                <div class="au-form-phnumber">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="text" id="phone" placeholder="Nhập số điện thoại" name="phone-number">
+                    <i class="fa-solid fa-phone fa-xs"></i>
+                </div>
+                <div class="au-form-pass">
+                    <label for="pass">Mật khẩu</label>
+                    <input type="password" id="pass" placeholder="Nhập mật khẩu" name="password">
+                    <i class="fa-solid fa-lock fa-xs"></i>
+                </div>
+                <div class="au-form-control">  
+                    <button type="submit">Đăng nhập</button>
+                </div>
+                <div class="au-form-aside">
+                    <a id="a-fpass" href="">Quên mật khẩu</a>
+                    <a id="a-dn" href="dangky.html">Đăng ký thành viên</a>
+                </div>
+            </form>
+            <div class="au-form-line"> 
+                <div class="line"></div>
+                <p class="au-form-line-text">
+                    HOẶC
+                </p>
+                <div class="line"></div>
+            </div>
+            <div class="au-form-social">
+                <a href="https://www.facebook.com/login"><i class="facebook-icon fa-brands fa-facebook fa-xl"></i></a>
+                <a href="https://accounts.google.com/v3/signin/identifier?ifkv=AVQVeyysa6g5qjlgxNhb4U4WnX6N_HZ12yPxxgPCH33IRmgdzAWSOcbBbI2q10BhTZHDZI0lCraLrw&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-385617335%3A1698161799389036&theme=glif">
+                    <i class="gmail-icon icon fa-brands fa-google fa-xl"></i>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="clean-seafood">
+                <h4>THỰC PHẨM SẠCH</h4>
+                <div class="info">
+                    <p><b>Nhà hàng seafood</b></p>
+                    <p><b>MST</b>: 0311782180-111</p>
+                    <p><b>Trụ sở doanh nghiệp</b>: Đường 3/2, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ</p>
+                </div>
+            </div>
+            <div class="about-us">
+                <p class="text-content">
+                    Về chúng tôi
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                    <li class="item"><a href="">Tuyển dụng</a></li>
+                    <li class="item"><a href="">Tin doanh nghiệp</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <p class="text-content">
+                    Hỗ trợ khách hàng
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="">Phương thức thanh toán</a></li>
+                    <li class="item"><a href="">Hướng dẫn đặt hàng</a></li>
+                    <li class="item"><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+            </div>
+            <div class="policies-and-terms">
+                <p class="text-content">
+                    Chính sách & Điều khoản
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="">Chính sách vận chuyển</a></li>
+                    <li class="item"><a href="">Chính sách bảo mật</a></li>
+                    <li class="item"><a href="">Chính sách kiểm hàng, đổi trả hàng</a></li>
+                    <li class="item"><a href="">Chính sách điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="contact-with-us">
+                    <p class="text-content">
+                        Kết nối với chúng tôi
+                    </p>
+                    <ul class="list-item">
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-facebook-f"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-instagram"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-twitter"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-youtube"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="sign-up-for">
+                    <p class="text-content">
+                        Đăng ký nhận tin
+                    </p>            
+                    <form class="enter-email need-validator" action="" method="post" enctype="multipart/form-data">
+                        <input type="text" placeholder="Nhập địa chỉ email" name="email">
+                        <button type="submit"><i class="icon letter fa-regular fa-envelope"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/validatorForm.js"></script>
+    <script src="../js/showMenuMobile.js"></script>
+</body>
+
+</html>

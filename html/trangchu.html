@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../resources/img/favicon_shrimp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <header>
+        <div class="notification"></div>
+        <div class="container">
+            <a href="trangchu.html" class="logo">
+                <img src="../resources/img/logo.png" alt="logo page">
+            </a>
+
+            <form class="search">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button type="submit"><i class="icon search fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div class="buy-now">
+                <i class="icon phone fa-solid fa-phone"></i>
+                <div class="hot-line">
+                    <p class="hot-line-text">Gọi mua hàng</p>
+                    <p class="phone-number">0999 999 999</p>
+                </div>
+            </div>
+
+            <a href="donhang.html" class="shopping-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+
+        <nav>
+            <div class="nav-bar">
+                <div class="category">
+                    <i class="icon list fa-solid fa-list"></i>
+                    <span class="text-content">
+                        Menu
+                    </span>
+                    <ul class="list-product">
+                        <li class="product"><a href="../html/tom.html" class="link-product">Tôm Biển</a></li>
+                        <li class="product"><a href="../html/cua.html" class="link-product">Cua - Ghẹ Biển</a></li>
+                        <li class="product"><a href="../html/ca.html" class="link-product">Cá Biển</a></li>
+                        <li class="product"><a href="../html/oc.html" class="link-product">Ốc Biển</a></li>
+                        <li class="product"><a href="../html/monan.html" class="link-product">Món Ăn</a></li>
+                    </ul>
+                </div>
+                <ul class="list-item">
+                    <li class="item"><a href="trangchu.html">Trang chủ</a></li>
+                    <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="item"><a href="sanpham.html">Sản phẩm</a></li>
+                    <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                    <li class="item"><a href="dangnhap.html">Đăng nhập</a></li>
+                    <li class="item"><a href="dangky.html">Đăng ký</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-bar-mobile">
+                <div class="category">
+                    <i class="icon list fa-solid fa-list"></i>
+                    <ul class="list-product">
+                        <li class="product"><a href="../html/tom.html" class="link-product">Tôm Biển</a></li>
+                        <li class="product"><a href="../html/cua.html" class="link-product">Cua - Ghẹ Biển</a></li>
+                        <li class="product"><a href="../html/ca.html" class="link-product">Cá Biển</a></li>
+                        <li class="product"><a href="../html/oc.html" class="link-product">Ốc Biển</a></li>
+                        <li class="product"><a href="../html/monan.html" class="link-product">Món Ăn</a></li>
+                        <li class="sub-nav-mobile">
+                            <ul class="list-item">
+                                <li class="item"><a href="trangchu.html">Trang chủ</a></li>
+                                <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li class="item"><a href="sanpham.html">Sản phẩm</a></li>
+                                <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                                <li class="item"><a href="dangnhap.html">Đăng nhập</a></li>
+                                <li class="item"><a href="dangky.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider-wrapper">
+            <button class="prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="next">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+            <div class="main-slider">
+                <div class="slider-item">
+                    <img src="../resources/img/anhf.jpg" alt="">
+                </div>
+                <div class="slider-item" style="display: none;">
+                    <img src="../resources/img/ANH2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <content class="home-wrapper">
+            <div class="home">
+                <div class="home-page">
+                    <i class="fa-solid fa-truck fa-2xl"></i>
+                    <div>
+                        <h3>MIỄN PHÍ GIAO HÀNG</h3>
+                        <p>Miễn phí vận chuyển tất cả đơn đặt hàng > 1 triệu đồng.</p>
+                    </div>
+                </div>
+                <div class="home-page">
+                    <i class="fa-solid fa-mobile-screen-button fa-2xl"></i>
+                    <div>
+                        <h3>TƯ VẤN MIỄN PHÍ 24/7</h3>
+                        <p>Đội ngũ tư vấn, CSKH nhiệt tình có hiểu biết sâu về sản phẩm.</p>
+                    </div>
+                </div>
+                <div class="home-page">
+                    <i class="fa-solid fa-shrimp fa-2xl"></i>
+                    <div>
+                        <h3>HẢI SẢN TƯƠI SỐNG</h3>
+                        <p>Cam kết hàng tươi sống khi đến tay khách hàng.</p>
+                    </div>
+                </div>
+                <div class="home-page">
+                    <i class="fa-regular fa-thumbs-up fa-2xl"></i>
+                    <div>
+                        <h3>ĐỔI TRẢ HÀNG HÓA</h3>
+                        <p>Đổi trả hàng hóa nếu như sản phẩm không đúng như mô tả.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </content>
+
+        <div class="outstanding-product">
+            <h1 class="seafood-name">Sản phẩm nổi bật</h1>
+            <div class="list-seafood" name="oc">
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/oc/oc1.jpg">
+                    <p class="name-product">Ngao Hoa</p>
+                    <p class="price"> 150.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/oc/oc2.jpg">
+                    <p class="name-product">Ốc Nhảy Đỏ</p>
+                    <p class="price"> 270.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/oc/oc3.jpg">
+                    <p class="name-product">Ốc Hương</p>
+                    <p class="price"> 500.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/oc/oc4.jpg">
+                    <p class="name-product">Ốc Móng Tay</p>
+                    <p class="price"> 1.000.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/oc/oc5.jpg">
+                    <p class="name-product">Ốc Mỡ</p>
+                    <p class="price"> 210.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/ca/ca1.jpg">
+                    <p class="name-product">Cá Chỉ Vàng</p>
+                    <p class="price"> 120.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/ca/ca2.jpg">
+                    <p class="name-product">Cá Lăng Đuôi Đỏ</p>
+                    <p class="price"> 500.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/ca/ca3.jpg">
+                    <p class="name-product">Cá Mút Đá</p>
+                    <p class="price"> 200.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/ca/ca4.jpg">
+                    <p class="name-product">Cá Thu</p>
+                    <p class="price"> 250.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/ca/ca5.jpg">
+                    <p class="name-product">Cá Ngừ Bông</p>
+                    <p class="price"> 120.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/cua/cua1.jpg">
+                    <p class="name-product">Cua Hoàng Đế</p>
+                    <p class="price"> 1.790.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/cua/cua2.jpg">
+                    <p class="name-product">Cua Biển Xanh</p>
+                    <p class="price"> 580.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood">
+                    <img src="../resources/img/anhsanpham/cua/cua3.jpg">
+                    <p class="name-product">Cua Biển Gạch</p>
+                    <p class="price"> 490.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/cua/cua4.jpg">
+                    <p class="name-product">Ghẹ Gạch</p>
+                    <p class="price"> 186.000 đ/1kg</p>
+                   <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/cua/cua5.jpg">
+                    <p class="name-product">Cua Bể</p>
+                    <p class="price"> 490.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/tom/tom1.jpg">
+                    <p class="name-product">Tôm Mũ Ni</p>
+                    <p class="price"> 950.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/tom/tom2.jpg">
+                    <p class="name-product">Tôm Càng Xanh</p>
+                    <p class="price"> 425.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/tom/tom3.jpg">
+                    <p class="name-product">Tôm Rảo</p>
+                    <p class="price"> 200.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/tom/tom4.jpg">
+                    <p class="name-product">Tôm Hùm Tasmania Úc</p>
+                    <p class="price"> 1.325.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+                <a href="" class="seafood" >
+                    <img src="../resources/img/anhsanpham/tom/tom5.jpg">
+                    <p class="name-product">Tôm Đất</p>
+                    <p class="price"> 150.000 đ/1kg</p>
+                    <button class="order">THÊM GIỎI HÀNG<i class="fas fa-shopping-basket"></i></button>
+                </a>
+            </div>
+        </div>
+
+        <content class="home-wrapper">
+        <h1 class="card">03 LÝ DO NÊN CHỌN HAISAN.ONLINE</h1>
+            <div class="content">
+                <div class="content-one">
+                    <i class="fa-regular fa-calendar-days fa-2xl"></i>
+                    <div class="detail-content">
+                        <h3>Tươi sống chất lượng nhất</h3>
+                        <p>Cam kết hải sản đạt luôn tươi sống, chất lượng tốt nhất được nhập từ các nguồn uy tín.</p>
+                    </div>
+                </div>
+                <div class="content-one">
+                    <i class="fa-regular fa-clock fa-2xl"></i>
+                    <div class="detail-content">
+                        <h3>Giao hàng 30 phút</h3>
+                        <p>Cam kết giao hàng nhanh nhất đến khách hàng thông qua hệ thống mạng lưới cửa hàng nhiều điểm.</p>
+                    </div>
+                </div>
+                <div class="content-one">
+                    <i class="fa-regular fa-handshake fa-2xl"></i>
+                    <div class="detail-content">
+                        <h3>Đổi trả hàng</h3>
+                        <p>Chính sách đổi trả hàng được áp dụng nếu chất lượng sản phẩm không như cam kết.</p>
+                    </div>
+                </div>
+            </div>
+        </content>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="clean-seafood">
+                <h4>THỰC PHẨM SẠCH</h4>
+                <div class="info">
+                    <p><b>Nhà hàng seafood</b></p>
+                    <p><b>MST</b>: 0311782180-111</p>
+                    <p><b>Trụ sở doanh nghiệp</b>: Đường 3/2, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ</p>
+                </div>
+            </div>
+            <div class="about-us">
+                <p class="text-content">
+                    Về chúng tôi
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="item"><a href="lienhe.html">Liên hệ</a></li>
+                    <li class="item"><a href="">Tuyển dụng</a></li>
+                    <li class="item"><a href="">Tin doanh nghiệp</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <p class="text-content">
+                    Hỗ trợ khách hàng
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="">Phương thức thanh toán</a></li>
+                    <li class="item"><a href="">Hướng dẫn đặt hàng</a></li>
+                    <li class="item"><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+            </div>
+            <div class="policies-and-terms">
+                <p class="text-content">
+                    Chính sách & Điều khoản
+                </p>
+                <ul class="list-item square-style">
+                    <li class="item"><a href="">Chính sách vận chuyển</a></li>
+                    <li class="item"><a href="">Chính sách bảo mật</a></li>
+                    <li class="item"><a href="">Chính sách kiểm hàng, đổi trả hàng</a></li>
+                    <li class="item"><a href="">Chính sách điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="contact-with-us">
+                    <p class="text-content">
+                        Kết nối với chúng tôi
+                    </p>
+                    <ul class="list-item">
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-facebook-f"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-instagram"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-twitter"></i>
+                        </a></li>
+                        <li class="item"><a href="" class="link-social">
+                            <i class="icon fa-brands fa-youtube"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="sign-up-for">
+                    <p class="text-content">
+                        Đăng ký nhận tin
+                    </p>            
+                    <form class="enter-email need-validator" action="" method="post" enctype="multipart/form-data">
+                        <input type="text" placeholder="Nhập địa chỉ email" name="email">
+                        <button type="submit">
+                            <i class="icon letter fa-regular fa-envelope"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/handleSlider.js"></script>
+    <script src="../js/validatorForm.js"></script>
+    <script src="../js/showDetailProduct.js"></script>
+    <script src="../js/addProduct.js"></script>
+    <script src="../js/showMenuMobile.js"></script>
+</body>
+
+</html>
