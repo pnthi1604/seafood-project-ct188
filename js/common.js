@@ -797,6 +797,9 @@ function renderCart() {
         </ul>`;
     for (let i = 0; i < localStorage.length; i++) {
         let code = localStorage.key(i);
+        if(!(code >= '0' && code < allProduct.length)) {
+            continue;
+        }
         let product = createNode('ul', 'product');
         renderContentProduct({ product, code });
         detailOrder.append(product);
@@ -851,7 +854,7 @@ if(!isNull(detailOrder)) {
             // renderCart();
             let isBuy = getIsBuy();
             let queryparam  = '?' + new URLSearchParams(isBuy).toString();
-            this.setAttribute('href',`thanhtoan.html${queryparam}`);
+            this.setAttribute('href',`../html/thanhtoan.html${queryparam}`);
         }        
     }
 }
