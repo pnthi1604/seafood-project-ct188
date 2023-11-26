@@ -798,7 +798,7 @@ function renderCart() {
     for (let i = 0; i < localStorage.length; i++) {
         let code = localStorage.key(i);
         if(!(code >= '0' && code < allProduct.length)) {
-            continue;
+            localStorage.removeItem(code);
         }
         let product = createNode('ul', 'product');
         renderContentProduct({ product, code });
